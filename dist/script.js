@@ -12,7 +12,7 @@ $(document).ready(function () {
 
   // Generating slides
   let arrCities = [
-  "Adrien",
+  "Adrien.Dumont",
   "Development",
   "Music",
   "Broadcasting",
@@ -194,8 +194,8 @@ $(document).ready(function () {
     if (animation) return;
     let delta = e.originalEvent.wheelDelta;
 
-    // if (delta > 0 || e.originalEvent.detail < 0) navigateLeft();
-    // if (delta < 0 || e.originalEvent.detail > 0) navigateRight();
+    if (delta > 0 || e.originalEvent.detail < 0) navigateLeft();
+    if (delta < 0 || e.originalEvent.detail > 0) navigateRight();
   });
 });
 var navbarHeight = $('.navbar').height(); 

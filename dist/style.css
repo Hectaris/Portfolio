@@ -93,10 +93,10 @@
 }
 .slide__text {
   font-size: 8vw;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
   transform: translate3d(0, 0, 0);
-  letter-spacing: 12px;
+  letter-spacing: 8px;
   color: #fff;
   will-change: transform;
   -webkit-user-select: none;
@@ -348,8 +348,8 @@ button {
 .btn:hover {
   background-color: #FFC233;
   box-shadow: 0px 5px 10px #FFD470;
-  color: #fff;
-  font-weight: 600;
+  color: #000;
+  font-weight: 500;
 }
 
 * {
