@@ -73,6 +73,16 @@ $(document).ready(function () {
 
   $(".nav__slide--1").addClass("nav-active");
 
+  // function buttonDisplay() {
+  //   if (${numSlide} === 5) { 
+  //     var x = document.getElementById("button");
+  //     if (x.style.display === "none") {
+  //       x.style.display = "block";
+  //     } else {
+  //       x.style.display = "none";
+  //     }
+  //   }  
+  // }
   // Navigation
   function bullets(dir) {
     $(".nav__slide--" + curSlide).removeClass("nav-active");
