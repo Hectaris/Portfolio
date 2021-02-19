@@ -295,7 +295,7 @@
 
 html {
   box-sizing: border-box;
-  font-family: "NOIR_regular";
+  font-family: "NOIR", sans-serif;
 }
 
 *,
@@ -331,7 +331,7 @@ button {
 .btn {
   width: 140px;
   height: 45px;
-  font-family: "NOIR_regular";
+  font-family: "NOIR", sans-serif;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
