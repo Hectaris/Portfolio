@@ -112,7 +112,7 @@
 }
 .slide--1__darkbg {
   left: 0%;
-  background: url("https://i.ibb.co/ctwn91X/duotone-2.png") center center no-repeat;
+  background: url("../img/pexels-camille-staehler-2293507.png") center center no-repeat;
   background-size: cover;
   background-position: 0px center, 0px center;
   transform: translate3d(0, 0, 0);
@@ -128,7 +128,7 @@
   background-color: rgba(11, 15, 39, 0.83);
 }
 .slide--1__letter {
-  background: url("https://i.ibb.co/ctwn91X/duotone-2.png") center center no-repeat;
+  background: url("../img/pexels-camille-staehler-2293507.png") center center no-repeat;
   background-position: 0px center, 0px center;
   background-size: cover;
 }

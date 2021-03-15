@@ -95,7 +95,7 @@ html, body{
     width: 100%;
 
     background-color: #000;
-    background-image: url("../img/pexels-camille-staehler-2293507.png");
+    background-image: url("../img/photo-1461749280684-dccba630e2f6.jpg.png");
   }
   .bigTitle{
       display: flex;
@@ -319,3 +319,52 @@ html, body{
     background-color: #000;
     background-image: url("https://develover.com.mx/recursos_codepen/web.jpg");
   }
+/* 
+Define this in your CSS 
+.bgColor = Replace it by the name you want to give your animation
+.bgAnimObj = Assign this class to the object you want to apply the effect
+*/
+
+.bgAnimObj {
+	background: #1abc9c;
+	/* Chrome, Safari */
+	-webkit-animation: bgColor 5s;
+	/* Firefox */
+	-moz-animation: bgColor 5s;
+	/* Standard Syntax */
+	animation: bgColor 5s;
+}
+
+/* 
+Define the keyframe and changes
+*/
+
+/* Chrome, Safari */
+@-webkit-keyframes bgColor {
+	from {
+ 		background: #1abc9c;
+	} 
+	to {
+ 		background: #ebebeb;
+	}
+}
+
+/* Firefox */
+@-moz-keyframes bgColor {
+    from {
+        background: #1abc9c;
+    }
+    to {
+        background: #ebebeb;
+    }
+}
+
+/* Standard syntax */
+@keyframes bgColor {
+	from {
+		background: #1abc9c;
+	}
+	to {
+		background: #ebebeb;
+	}
+}
