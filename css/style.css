@@ -88,6 +88,21 @@
 }
 .imgPP{
     position: relative;
-    top: -3%;
-    left: 4%;
+    bottom: 0.5vw;
+    right: 1vh;
+}
+.boxP{
+    width: 50vh;
+}
+.spacing{
+    margin-right: 5vw;
+}
+.blockAbout{
+    align-self: center;
+}
+.TitleAbout{
+    margin: 2vh 0;
+}
+.imgS{
+    height: 27vh;
 }
