@@ -35,6 +35,9 @@
 .titlesetb {
     padding: 4% 4%;
 }
+.titlesetc {
+    padding: 6% 6%;
+}
 
 .Colorgradient {
     height: 35vh;
@@ -50,6 +53,7 @@
     animation: gradient 30s ease infinite;
     background-size: 400% 400%;
     justify-content: center;
+    box-shadow: 5px 5px 20px -2px #000000;
 }
 
 .DigitalBox {
@@ -59,6 +63,7 @@
     animation: gradient 30s ease infinite;
     background-size: 400% 400%;
     justify-content: center;
+    box-shadow: 5px 5px 20px -2px #000000;
 }
 
 @keyframes gradient {
@@ -75,4 +80,14 @@
 
 .choicetext {
     align-items: center;
+}
+.shadowPP{
+    background: linear-gradient(-45deg, #0000FF, #020024);
+    background-size: 400% 400%;
+    animation: gradient 45s ease infinite;
+}
+.imgPP{
+    position: relative;
+    top: -3%;
+    left: 4%;
 }
