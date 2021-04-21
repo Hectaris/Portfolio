@@ -1,14 +1,17 @@
 /* Colors from site --- Change only when required */
-.body{
-    background-color: #F1FEEE;
+body{
+    background-color: #F9F9FE;
 }
 
-h1, h2{
-    color: #F1FEEE;
+h1, h4{
+    color: #F9F9FE;
 }
-h3, h4, h5, h6, p, blockquote, pre{
+h3, h2, h5, h6, p, blockquote, pre{
     color: #020024;
 }
 a{
-    color: #F1FEEE;
+    color: #F9F9FE;
+}
+.black{
+    color: #020024;
 }

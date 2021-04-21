@@ -1,24 +1,64 @@
 /* Main style */
 
 .navsettings{
-    padding: 1.5% 1.5%;
+    padding: 1.5% 1%;
 
 }
 .active{
+    font-size: 3vh;
     color: #F1FEEE;
     padding: 0 2%;
     font-weight: 700;
     text-shadow: 2px 2px 4px #0A090C;
 }
 .inactive{
+    font-size: 3vh;
     color: #F1FEEE;
     padding: 0 2%;
     text-shadow: 1px 1px 4px #0A090C;
     font-weight: 400;
 }
 .shadow1{
-    text-shadow: 4px 4px 4px #0A090C;
+    text-shadow: 3px 3px 4px #0A090C;
 }
 .shadow2{
     text-shadow: 2px 2px 4px #0A090C;
+}
+.shadow3{
+    text-shadow: 1px 1px 4px #0A090C;
+}
+.titlesetb{
+    padding: 4% 4%;
+
+}
+.Colorgradient{
+    height: 35vh;
+    background: linear-gradient(-45deg, #EFDD6F, #00A7E1, #2181C2, #01468F);
+	background-size: 400% 400%;
+	animation: gradient 45s ease infinite;
+}
+.DevBox{
+    height: 20vh;
+    width: 15vw;
+    background: linear-gradient(45deg, #F7BA2C, #F18E3F,#ED6E4D, #EA5459);
+	animation: gradient 30s ease infinite;
+    background-size: 400% 400%;
+}
+.DigitalBox{
+    height: 20vh;
+    width: 15vw;
+    background: linear-gradient(120deg, #0061FF, #1A87FF,#45C7FF, #60efff);
+	animation: gradient 30s ease infinite;
+    background-size: 400% 400%;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%; 
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
