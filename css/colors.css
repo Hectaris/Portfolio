@@ -3,10 +3,10 @@ body{
     background-color: #F9F9FE;
 }
 
-h1, h4{
+h1,h3, h4{
     color: #F9F9FE;
 }
-h3, h2, h5, h6, p, blockquote, pre{
+h2, h5, h6, p, blockquote, pre{
     color: #020024;
 }
 a{
