@@ -1,1 +1,42 @@
 /* Base.css --- Do not touch */
+
+.Colorgradient{
+    height: 30vh;
+    background: linear-gradient(-45deg, #FFBC42, #02C3BD, #3581B8, #184A8B);
+	background-size: 400% 400%;
+	animation: gradient 60s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.flex{
+    display: flex;
+}
+.row{
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
+}
+.center{
+    justify-content: center;
+}
+.t-alignc{
+    text-align: center;
+}
+.fend{
+    justify-content: flex-end;
+}
+.fstart{
+    justify-content: flex-start;
+}
