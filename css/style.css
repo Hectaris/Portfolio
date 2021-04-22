@@ -4,6 +4,10 @@
     padding: 1.5% 1%;
 }
 
+.headpush{
+    padding-bottom: 7.5vh;
+}
+
 .active {
     font-size: 3vh;
     color: #F1FEEE;
@@ -30,27 +34,32 @@
 .shadow3 {
     text-shadow: 1px 1px 4px #0A090C;
 }
+
 .shadow4 {
     text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .titleseta {
     padding: 2% 2%;
 }
+
 .titlesetd {
     padding: 0 0 3% 0;
 }
+
 .titlesetb {
     padding: 4% 4% 3% 4%;
 }
+
 .titlesetc {
     padding: 4% 6% 4% 6%;
 }
+
 .titlesete {
     padding: 4% 4% 2% 4%;
 }
 
 .Colorgradient {
-    height: 35vh;
     background: linear-gradient(-45deg, #000066, #6699FF);
     background-size: 400% 400%;
     animation: gradient 45s ease infinite;
@@ -63,7 +72,7 @@
     animation: gradient 30s ease infinite;
     background-size: 400% 400%;
     justify-content: center;
-    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 .DigitalBox {
@@ -73,7 +82,7 @@
     animation: gradient 30s ease infinite;
     background-size: 400% 400%;
     justify-content: center;
-    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 @keyframes gradient {
@@ -91,41 +100,53 @@
 .choicetext {
     align-items: center;
 }
-.boxP{
+
+.boxP {
     width: 50vh;
 }
-.spacing{
+
+.spacing {
     margin-right: 5vw;
 }
-.spacing2{
+
+.spacing2 {
     margin-right: 10vw;
 }
-.blockAbout{
+
+.blockAbout {
     align-self: center;
 }
-.TitleAbout{
+
+.TitleAbout {
     margin: 0 0 2vh 0;
 }
-.imgPP{
-    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
+
+.imgPP {
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
     line-height: 0;
 }
-.imgS{
+
+.imgS {
     height: 26vh;
 }
-.square{
+
+.square {
     height: 12vh;
 }
-.Msides{
+
+.Msides {
     margin: 0 9vw;
 }
-.Msides2{
+
+.Msides2 {
     margin: 0 20vw;
 }
-.Easteregg{
+
+.Easteregg {
     color: #000066;
     font-weight: 500;
 }
-.just-c{
+
+.just-c {
     justify-content: center;
 }

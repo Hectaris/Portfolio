@@ -1,6 +1,12 @@
 /* Dev page */
 
 .imgdev{
-    height: 5%;
-    width: 5%;
+    height: 17vh;
+    width: auto;
+}
+
+.h3spec{
+    font-size: 4VH;
+    font-weight: 600;
+    font-style: normal;
 }
