@@ -16,7 +16,6 @@
     font-size: 3vh;
     color: #F1FEEE;
     padding: 0 2%;
-    text-shadow: 1px 1px 4px #0A090C;
     font-weight: 400;
 }
 
@@ -32,7 +31,7 @@
     text-shadow: 1px 1px 4px #0A090C;
 }
 .shadow4 {
-    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 .titleseta {
     padding: 2% 2%;
@@ -44,10 +43,10 @@
     padding: 4% 4% 3% 4%;
 }
 .titlesetc {
-    padding: 6% 6% 4% 6%;
+    padding: 4% 6% 4% 6%;
 }
 .titlesete {
-    padding: 6% 4% 2% 4%;
+    padding: 4% 4% 2% 4%;
 }
 
 .Colorgradient {
@@ -58,23 +57,23 @@
 }
 
 .DevBox {
-    height: 20vh;
-    width: 18vw;
-    background: linear-gradient(45deg, #F7BA2C, #F18E3F, #ED6E4D, #EA5459);
+    height: 15vh;
+    width: 12vw;
+    background: linear-gradient(45deg, #000066, #334DB3);
     animation: gradient 30s ease infinite;
     background-size: 400% 400%;
     justify-content: center;
-    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.4);
+    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
 }
 
 .DigitalBox {
-    height: 20vh;
-    width: 18vw;
-    background: linear-gradient(120deg, #D4ACFB, #B84FCE);
+    height: 15vh;
+    width: 12vw;
+    background: linear-gradient(120deg, #000066, #334DB3);
     animation: gradient 30s ease infinite;
     background-size: 400% 400%;
     justify-content: center;
-    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.4);
+    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
 }
 
 @keyframes gradient {
@@ -108,7 +107,7 @@
     margin: 0 0 2vh 0;
 }
 .imgPP{
-    box-shadow: 3px 3px 10px 2px rgba(0,0,144,0.5);
+    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
     line-height: 0;
 }
 .imgS{
@@ -119,6 +118,9 @@
 }
 .Msides{
     margin: 0 9vw;
+}
+.Msides2{
+    margin: 0 20vw;
 }
 .Easteregg{
     color: #000066;
