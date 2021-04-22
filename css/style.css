@@ -31,12 +31,23 @@
 .shadow3 {
     text-shadow: 1px 1px 4px #0A090C;
 }
-
+.shadow4 {
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.titleseta {
+    padding: 2% 2%;
+}
+.titlesetd {
+    padding: 0 0 3% 0;
+}
 .titlesetb {
-    padding: 4% 4%;
+    padding: 4% 4% 3% 4%;
 }
 .titlesetc {
-    padding: 6% 6%;
+    padding: 6% 6% 4% 6%;
+}
+.titlesete {
+    padding: 6% 4% 2% 4%;
 }
 
 .Colorgradient {
@@ -53,7 +64,7 @@
     animation: gradient 30s ease infinite;
     background-size: 400% 400%;
     justify-content: center;
-    box-shadow: 5px 5px 20px -2px #000000;
+    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.4);
 }
 
 .DigitalBox {
@@ -63,7 +74,7 @@
     animation: gradient 30s ease infinite;
     background-size: 400% 400%;
     justify-content: center;
-    box-shadow: 5px 5px 20px -2px #000000;
+    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.4);
 }
 
 @keyframes gradient {
@@ -81,28 +92,38 @@
 .choicetext {
     align-items: center;
 }
-.shadowPP{
-    background: linear-gradient(-45deg, #0000FF, #020024);
-    background-size: 400% 400%;
-    animation: gradient 45s ease infinite;
-}
-.imgPP{
-    position: relative;
-    bottom: 0.5vw;
-    right: 1vh;
-}
 .boxP{
     width: 50vh;
 }
 .spacing{
     margin-right: 5vw;
 }
+.spacing2{
+    margin-right: 10vw;
+}
 .blockAbout{
     align-self: center;
 }
 .TitleAbout{
-    margin: 2vh 0;
+    margin: 0 0 2vh 0;
+}
+.imgPP{
+    box-shadow: 3px 3px 10px 2px rgba(0,0,144,0.5);
+    line-height: 0;
 }
 .imgS{
-    height: 27vh;
+    height: 26vh;
+}
+.square{
+    height: 12vh;
+}
+.Msides{
+    margin: 0 9vw;
+}
+.Easteregg{
+    color: #000066;
+    font-weight: 500;
+}
+.just-c{
+    justify-content: center;
 }
