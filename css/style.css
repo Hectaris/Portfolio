@@ -4,7 +4,7 @@
     padding: 1.5% 1%;
 }
 
-.headpush{
+.headpush {
     padding-bottom: 7.5vh;
 }
 
@@ -57,6 +57,10 @@
 
 .titlesete {
     padding: 4% 4% 2% 4%;
+}
+
+.titlesetf {
+    padding: 6% 6% 6% 6%;
 }
 
 .Colorgradient {
@@ -123,6 +127,11 @@
 
 .imgPP {
     box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
+    line-height: 0;
+}
+
+.Boxshadow {
+    box-shadow: 3px 3px 10px 2px rgba(8, 51, 149, 1);
     line-height: 0;
 }
 
