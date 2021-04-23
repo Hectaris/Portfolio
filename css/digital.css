@@ -11,7 +11,7 @@
 .CSSgal {
 	position: relative;
 	overflow: hidden;
-	height: 50vh; /* Or set a fixed height */
+	height: 100%; /* Or set a fixed height */
 }
 
 /* SLIDER */
@@ -28,6 +28,7 @@
 .CSSgal .slider > * {
 	font-size: 1rem;
 	display: inline-block;
+    justify-content: center;
 	white-space: normal;
 	vertical-align: top;
 	height: 100%;
@@ -51,7 +52,7 @@
 }
 
 .CSSgal .prevNext a {
-	background: #334db383;
+	background: #334DB3;
 	position: absolute;
 	width:       60px;
 	height:      60px;
@@ -81,7 +82,6 @@
 	padding: 10px 0;
 	width: 100%;
 	text-align: center;
-
 }
 .CSSgal .bullets > a {
 	display: inline-block;
@@ -95,19 +95,19 @@
 					transition: 0.3s;
 }
 .CSSgal .bullets > a+a {
-	background: #334db383; /* Dim all but first */
+	background: #334db369; /* Dim all but first */
 }
 .CSSgal .bullets > a:hover {
-	background: #334db3b0 !important;
+	background: #334db3a8 !important;
 }
 
 /* NAVIGATION BUTTONS */
 /* ALL: */
-.CSSgal >s:target ~ .bullets >* {      background: #334db383;}
+.CSSgal >s:target ~ .bullets >* {      background: rgba(255, 255, 255, 0.5);}
 /* ACTIVE */
-#s1:target ~ .bullets >*:nth-child(1) {background: #334DB3;}
-#s2:target ~ .bullets >*:nth-child(2) {background: #334DB3;}
-#s3:target ~ .bullets >*:nth-child(3) {background: #334DB3;}
+#s1:target ~ .bullets >*:nth-child(1) {background: rgba(255, 255, 255,   1);}
+#s2:target ~ .bullets >*:nth-child(2) {background: rgba(255, 255, 255,   1);}
+#s3:target ~ .bullets >*:nth-child(3) {background: rgba(255, 255, 255,   1);}
 /* More slides? Add here more rules */
 
 /* PREV/NEXT CONTAINERS VISIBILITY */
@@ -124,7 +124,6 @@
 #s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
 #s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
 #s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
-#s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
 /* More slides? Add here more rules */
 
 
