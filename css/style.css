@@ -1,11 +1,11 @@
 /* Main style */
 
 .navsettings {
-    padding: 1.5% 1%;
+    padding: 1% 0.5%;
 }
 
 .headpush {
-    padding-bottom: 7.5vh;
+    padding-bottom: 5vh;
 }
 
 .active {
@@ -44,23 +44,23 @@
 }
 
 .titlesetd {
-    padding: 0 0 3% 0;
+    padding: 0 0 1.5% 0;
 }
 
 .titlesetb {
-    padding: 4% 4% 3% 4%;
+    padding: 3% 3% 2% 3%;
 }
 
 .titlesetc {
-    padding: 4% 6% 4% 6%;
+    padding: 2% 3% 2% 3%;
 }
 
 .titlesete {
-    padding: 4% 4% 2% 4%;
+    padding: 1% 2% 1% 2%;
 }
 
 .titlesetf {
-    padding: 6% 6% 6% 6%;
+    padding: 3% 3% 3% 3%;
 }
 
 .Colorgradient {
@@ -70,7 +70,7 @@
 }
 
 .DevBox {
-    height: 15vh;
+    height: 12vh;
     width: 12vw;
     background: linear-gradient(45deg, #000066, #334DB3);
     animation: gradient 30s ease infinite;
@@ -80,7 +80,7 @@
 }
 
 .DigitalBox {
-    height: 15vh;
+    height: 12vh;
     width: 12vw;
     background: linear-gradient(120deg, #000066, #334DB3);
     animation: gradient 30s ease infinite;
@@ -136,11 +136,11 @@
 }
 
 .imgS {
-    height: 26vh;
+    height: 22vh;
 }
 
 .square {
-    height: 12vh;
+    height: 7vh;
 }
 
 .Msides {
