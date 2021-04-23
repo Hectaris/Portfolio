@@ -11,7 +11,7 @@
     font-size: 3vh;
     font-weight: 700;
     text-shadow: 2px 2px 4px #0A090C;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .headpush {
@@ -31,6 +31,7 @@
     color: #F1FEEE;
     padding: 0 2%;
     font-weight: 400;
+    transition: all 0.3s;
 }
 
 .shadow1 {
@@ -72,6 +73,9 @@
 .titlesetf {
     padding: 3% 3% 3% 3%;
 }
+.titlesetg {
+    padding: 0 0 6% 0;
+}
 
 .Colorgradient {
     background: linear-gradient(-45deg, #000066, #6699FF);
@@ -87,13 +91,17 @@
     background-size: 400% 400%;
     justify-content: center;
     box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
 }
-
+.boite{
+    transition: all 0.5s;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
+}
 .boite:hover{
     background: linear-gradient(45deg, #6699FF, #334DB3);
     transform: translate(-2%, -2%); -webkit-transform: translate( -2%, -2%);
-    text-shadow: 3px 3px 4px #0A090C;
     transition: all 0.5s;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.5);
 }
 
 .DigitalBox {
@@ -125,9 +133,14 @@
 .boxP {
     width: 50vh;
 }
-
+.space{
+    margin-right: 5vw;
+}
 .spacing {
     margin-right: 5vw;
+    background: linear-gradient(120deg, #000066, #334DB3);
+    animation: gradient 30s ease infinite;
+    background-size: 400% 400%;
 }
 
 .spacing2 {
@@ -152,13 +165,27 @@
     line-height: 0;
 }
 
-
+.imgH {
+    height: 22vh;
+}
 .imgS {
     height: 22vh;
+    transition: all 0.5s;
+}
+.imgS:hover{
+    height: 23vh;
+    transform: translate(-2%, -3%); -webkit-transform: translate( -2%, -3%);
+    transition: all 0.5s;
 }
 
 .square {
     height: 7vh;
+    transition: all 0.5s;
+    align-items: center;
+}
+.square:hover{
+    height: 8vh;
+    transition: all 0.5s;
 }
 
 .Msides {

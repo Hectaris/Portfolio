@@ -2,7 +2,12 @@
 
 .imgdig{
     height: 7vh;
-    width: auto;
+ 	width: auto;
+	transition: all 0.5s;
+}
+.imgdig:hover{
+    height: 9vh;
+ 	transition: all 0.5s;
 }
 .mar{
     margin: 0 4%;
@@ -68,6 +73,10 @@
 }
 .CSSgal .prevNext a:hover {
 	opacity: 1;
+	height:      70px;
+	width:       70px;
+	line-height: 70px;
+
 }
 .CSSgal .prevNext a+a {
 	left: auto;
@@ -80,7 +89,7 @@
 	position: absolute;
 	z-index: 2;
 	bottom: 0;
-	padding: 10px 0;
+	padding: 15px 0;
 	width: 100%;
 	text-align: center;
 }
@@ -99,7 +108,11 @@
 	background: #334db369; /* Dim all but first */
 }
 .CSSgal .bullets > a:hover {
-	background: #334db3a8 !important;
+	background: #334db3 !important;
+	width:       33px;
+	height:      33px;
+	line-height: 33px;
+
 }
 
 /* NAVIGATION BUTTONS */
@@ -146,7 +159,7 @@
 }
 
 .chevrons{
-    font-size: 10vh;
+    font-size: 5vh;
     font-weight: 500;
     color: rgba(255, 255, 255,   1);
 }
