@@ -35,6 +35,7 @@
 	width: 100%;
 	background: none 50% no-repeat;
 	background-size: cover;
+    padding-bottom: 7vh;
 }
 
 /* PREV/NEXT, CONTAINERS & ANCHORS */
@@ -103,11 +104,11 @@
 
 /* NAVIGATION BUTTONS */
 /* ALL: */
-.CSSgal >s:target ~ .bullets >* {      background: rgba(255, 255, 255, 0.5);}
+.CSSgal >s:target ~ .bullets >* {      background: #334db3a8;}
 /* ACTIVE */
-#s1:target ~ .bullets >*:nth-child(1) {background: rgba(255, 255, 255,   1);}
-#s2:target ~ .bullets >*:nth-child(2) {background: rgba(255, 255, 255,   1);}
-#s3:target ~ .bullets >*:nth-child(3) {background: rgba(255, 255, 255,   1);}
+#s1:target ~ .bullets >*:nth-child(1) {background: #334DB3;}
+#s2:target ~ .bullets >*:nth-child(2) {background: #334DB3;}
+#s3:target ~ .bullets >*:nth-child(3) {background: #334DB3;}
 /* More slides? Add here more rules */
 
 /* PREV/NEXT CONTAINERS VISIBILITY */
@@ -140,6 +141,12 @@
 .CSSgal a {
 	border-radius: 50%;
 	margin: 0 3px;
-	color: rgba(0,0,0,0.8);
+	color: #fff;
 	text-decoration: none;
+}
+
+.chevrons{
+    font-size: 10vh;
+    font-weight: 500;
+    color: rgba(255, 255, 255,   1);
 }

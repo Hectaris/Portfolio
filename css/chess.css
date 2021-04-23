@@ -7,8 +7,8 @@
   --color-success: #1d83e0;
   --color-white: #ffdc25;
   --color-black: #222;
-  --color-board-hue: 30;
-  --color-board-sat: 40%;
+  --color-board-hue: 80;
+  --color-board-sat: 0%;
   --color-shadow: hsl(var(--color-board-hue), var(--color-board-sat), 50%);
   --color-shadow-lighter: hsl(var(--color-board-hue), var(--color-board-sat), 55%);
   --transition-ease: cubic-bezier(0.25, 1, 0.5, 1);

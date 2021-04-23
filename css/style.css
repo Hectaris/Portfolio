@@ -3,6 +3,16 @@
 .navsettings {
     padding: 1% 0.5%;
 }
+.active:hover{
+    font-size: 3vh;
+    font-weight: 700;
+}
+.inactive:hover{
+    font-size: 3vh;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #0A090C;
+    transition: all 0.5s;
+}
 
 .headpush {
     padding-bottom: 5vh;
@@ -52,7 +62,7 @@
 }
 
 .titlesetc {
-    padding: 2% 3% 2% 3%;
+    padding: 2% 3% 1.5% 3%;
 }
 
 .titlesete {
@@ -77,6 +87,13 @@
     background-size: 400% 400%;
     justify-content: center;
     box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.boite:hover{
+    background: linear-gradient(45deg, #6699FF, #334DB3);
+    transform: translate(-2%, -2%); -webkit-transform: translate( -2%, -2%);
+    text-shadow: 3px 3px 4px #0A090C;
+    transition: all 0.5s;
 }
 
 .DigitalBox {
@@ -134,6 +151,7 @@
     box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.4);
     line-height: 0;
 }
+
 
 .imgS {
     height: 22vh;
