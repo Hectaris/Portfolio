@@ -1,7 +1,8 @@
 /* Main style */
 
 .navsettings {
-    padding: 1% 0.5%;
+    padding: 1% 0 0% 0;
+    margin-right: 7.5%;
 }
 .active:hover{
     font-size: 3vh;
@@ -92,13 +93,14 @@
     justify-content: center;
     box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
     transition: all 0.5s;
+    border-radius: 4px;
 }
 .boite{
     transition: all 0.5s;
     box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
 }
 .boite:hover{
-    background: linear-gradient(45deg, #6699FF, #334DB3);
     transform: translate(-2%, -2%); -webkit-transform: translate( -2%, -2%);
     transition: all 0.5s;
     box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.5);
@@ -112,6 +114,7 @@
     background-size: 400% 400%;
     justify-content: center;
     box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
 }
 
 @keyframes gradient {
@@ -206,4 +209,16 @@
 }
 .bgred{
     background-color: red;
+}
+.whiteBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85%;
+    width: 85%;
+    margin-left: 7.5%;
+    background-color: #F1FEEE;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+
 }
