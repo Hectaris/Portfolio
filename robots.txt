@@ -1,2 +1,3 @@
 # robots.txt for https://adriendumont.fr
 User-agent: *
+Sitemap: http://example.com/sitemap.xml
