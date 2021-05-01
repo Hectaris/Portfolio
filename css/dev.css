@@ -161,3 +161,29 @@
     color: #334DB3;
     transform: translateY(-7px);
   }
+  @media (max-width: 1250px) {
+    .imgdev{
+      height: 4.5vh;
+    }
+    .h3spec{
+      font-size: 1.5vh;
+    }
+    .imgD{
+      height: 8vh;
+    }
+    .imgD:hover{
+      height: 8vh;
+    }
+    .popup__photo{
+      display: none;
+    }
+    .popup__text{
+      padding: 2.75rem;
+    }
+    .btn{
+      width: 25vw;
+    }
+    .titlesetg{
+      padding: 0 0 15% 0;
+    }
+  }

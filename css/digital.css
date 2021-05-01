@@ -163,3 +163,20 @@
     font-weight: 500;
     color: rgba(255, 255, 255,   1);
 }
+@media (max-width: 1250px) {
+	.imgdig{
+		height: 3vh
+	}
+	.CSSgal .slider{
+		height: 20vh;
+	}
+	.CSSgal .bullets{
+		width: 5%;
+	}
+	.imgS{
+		height: 8vh;
+	}
+	.spacing {
+		display: none;
+	}
+}

@@ -222,3 +222,62 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 
 }
+.FdirR{
+    flex-direction: row;
+}
+@media (max-width: 1250px) {
+    .headpush{
+        padding-bottom: 2vh;
+    }
+    .DevBox{
+        height: 8vh;
+        width: 25vw;
+    }
+    .DigitalBox{
+        height: 8vh;
+        width: 25vw;
+    }
+    .navsettings{
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-bottom: 1vh;
+        margin-top: 0.5vh;
+    }
+    .boite{
+        margin-right: 5vw;
+        margin-left: 5vw;
+    }
+    .active{
+        font-size: 2.5vh;
+        font-weight: 600;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    }
+    .inactive {
+        font-size: 2.5vh;
+        font-weight: 400;
+    }
+    .imgH{
+        height: 15vh;
+    }
+    .boxP{
+        width: 40vw;
+    }
+    .lookset{
+        margin-bottom: 1vh;
+    }
+    .TitleAbout{
+        margin : 0 0 1vh 0;
+    }
+    .follow{
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    .choice{
+        margin-bottom: 3vh;
+        margin-top: 0.5vh;
+    }
+    .square{
+        height: 6vh;
+    }
+}
