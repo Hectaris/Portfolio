@@ -32,6 +32,9 @@ p {
     font-size: 2vh;
     line-height: 3vh;
 }
+.t-aligncenter{
+    text-align: center;
+}
 @media (max-width: 1250px) {
     h1{
         font-weight: 500;
