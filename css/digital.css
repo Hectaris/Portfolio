@@ -170,13 +170,60 @@
 	.CSSgal .slider{
 		height: 20vh;
 	}
-	.CSSgal .bullets{
-		width: 5%;
-	}
 	.imgS{
-		height: 8vh;
+		height: 7vh;
 	}
-	.spacing {
+	.CSSgal .prevNext a {
+		width:       20px;
+		height:      20px;
+		line-height: 20px;
+	}
+	.CSSgal .bullets > a {
+		width:       20px;
+		height:      20px;
+		line-height: 20px;
+	}
+	.spacing{
+		background: none;
+	}
+	.CSSgal .bullets > a:hover {
+		width:       22px;
+		height:      22px;
+		line-height: 22px;
+	
+	}
+	.chevrons{
+		font-size: 2vh;
+	}
+	.slider .spacing{
+		display:none;
+	}
+	.boxP{
+		width: 25vh;
+	}
+	.CSSgal .prevNext a:hover {
+		opacity: 1;
+		height:      22px;
+		width:       22px;
+		line-height: 22px;
+	}
+	.CSSgal .prevNext a+a {
 		display: none;
+	}
+	.TitleAbout H2{
+		font-size: 2vh;
+	}
+	.CSSgal .prevNext a {
+		display: none;
+	}
+	.CSSgal .bullets {
+		bottom: -10%;
+		
+	}
+	.row{
+		align-items: center;
+	}
+	.blob .boxP{
+		width: 20vh;
 	}
 }

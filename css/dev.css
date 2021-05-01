@@ -161,6 +161,9 @@
     color: #334DB3;
     transform: translateY(-7px);
   }
+  .t-align{
+    text-align: center;
+  }
   @media (max-width: 1250px) {
     .imgdev{
       height: 4.5vh;

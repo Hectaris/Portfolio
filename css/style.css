@@ -280,4 +280,7 @@
     .square{
         height: 6vh;
     }
+    .whiteBox{
+        border-radius: 10px 10px;  
+    }
 }
