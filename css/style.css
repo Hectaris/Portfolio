@@ -5,12 +5,11 @@
     margin-right: 7.5%;
 }
 .active:hover{
-    font-size: 3vh;
-    font-weight: 700;
+    transform: scale(1.1);
+    transition: all 0.3s;
 }
 .inactive:hover{
-    font-size: 3vh;
-    font-weight: 700;
+    transform: scale(1.1);
     text-shadow: 2px 2px 4px #0A090C;
     transition: all 0.3s;
 }
@@ -176,7 +175,7 @@
     transition: all 0.5s;
 }
 .imgS:hover{
-    height: 23vh;
+    transform: scale(1.1);
     transform: translate(-2%, -3%); -webkit-transform: translate( -2%, -3%);
     transition: all 0.5s;
 }
@@ -187,7 +186,7 @@
     align-items: center;
 }
 .square:hover{
-    height: 8vh;
+    transform: scale(1.1);
     transition: all 0.5s;
 }
 
@@ -221,6 +220,9 @@
     border-radius: 10px 10px 0 0;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 
+}
+.easteregg{
+    margin-top: 1vh;
 }
 .FdirR{
     flex-direction: row;

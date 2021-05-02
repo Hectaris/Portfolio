@@ -7,7 +7,7 @@
 }
 
 .imgdev:hover{
-    height: 9vh;
+  transform: scale(1.2);
  	transition: all 0.5s;
 }
 
@@ -21,7 +21,7 @@
     transition: all 0.5s;
 }
 .imgD:hover{
-    height: 21vh;
+    transform: scale(1.1);
     transform: translate(-2%, -3%); -webkit-transform: translate( -2%, -3%);
     transition: all 0.5s;
 }
