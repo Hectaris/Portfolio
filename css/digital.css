@@ -6,7 +6,7 @@
 	transition: all 0.5s;
 }
 .imgdig:hover{
-    height: 9vh;
+    transform: scale(1.2);
  	transition: all 0.5s;
 }
 .mar{
