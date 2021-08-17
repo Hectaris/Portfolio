@@ -93,7 +93,7 @@
 .DevBox {
     height: 12vh;
     width: 12vw;
-    background: linear-gradient(45deg, #000066, #334DB3);
+    background: linear-gradient(45deg, #595cff, #334DB3);
     animation: gradient 30s ease infinite;
     background-size: 400% 400%;
     justify-content: center;
@@ -118,7 +118,7 @@
 .DigitalBox {
     height: 12vh;
     width: 12vw;
-    background: linear-gradient(120deg, #000066, #334DB3);
+    background: linear-gradient(120deg, #595cff, #334DB3);
     animation: gradient 30s ease infinite;
     background-size: 400% 400%;
     justify-content: center;
@@ -258,7 +258,6 @@
 .skillBorder {
     height: 4vh;
     width: 60vw;
-    animation: gradient 30s ease infinite;
     background-size: 400% 400%;
     justify-content: center;
     box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
@@ -267,13 +266,11 @@
 }
 
 .skillBgd {
-    background: linear-gradient(120deg, #000066, #334DB3);
+    background: linear-gradient(120deg, #595cff, #c6f8ff);
     animation: gradient 30s ease infinite;
     background-size: 400% 400%;
     border-radius: 4px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    height: 4vh;
 }
 
 .skillTitle {
@@ -282,9 +279,10 @@
     background: #0A090C;
     border-radius: 4px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
+
 .skillPercent {
     width: 100%;
     border-radius: 4px;
@@ -295,53 +293,87 @@
 }
 
 .bar100 {
-    height: 4vh;
     width: 60vw;
+    animation: slide100 2s ease;
 }
 
-.bar90 {
-    height: 4vh;
-    width: 55vw;
+@keyframes slide100 {
+    from {
+        width: 10vw;
+    }
+    to {
+        width: 60vw;
+    }
 }
 
 .bar80 {
-    height: 4vh;
     width: 50vw;
+    animation: slide80 2s ease;
+}
+
+@keyframes slide80 {
+    from {
+        width: 10vw;
+    }
+    to {
+        width: 50vw;
+    }
 }
 
 .bar70 {
-    height: 4vh;
     width: 45vw;
+    animation: slide70 2s ease;
+}
+
+@keyframes slide70 {
+    from {
+        width: 10vw;
+    }
+    to {
+        width: 45vw;
+    }
 }
 
 .bar60 {
-    height: 4vh;
     width: 40vw;
+    animation: slide60 2s ease;
 }
 
-.bar50 {
-    height: 4vh;
-    width: 35vw;
+@keyframes slide60 {
+    from {
+        width: 10vw;
+    }
+    to {
+        width: 40vw;
+    }
 }
 
 .bar40 {
-    height: 4vh;
     width: 30vw;
+    animation: slide40 2s ease;
+}
+
+@keyframes slide40 {
+    from {
+        width: 10vw;
+    }
+    to {
+        width: 30vw;
+    }
 }
 
 .bar30 {
-    height: 4vh;
     width: 25vw;
+    animation: slide30 2s ease;
 }
 
-.bar20 {
-    height: 4vh;
-    width: 20vw;
-}
-
-.bar10 {
-    height: 5vh;
-    width: 15vw;
+@keyframes slide30 {
+    from {
+        width: 10vw;
+    }
+    to {
+        width: 25vw;
+    }
 }
 
 @media (max-width: 1250px) {
@@ -401,5 +433,22 @@
     }
     .whiteBox {
         border-radius: 10px 10px;
+    }
+    .skillBorder {
+        height: 3vh;
+        margin: 3%;
+    }
+    .skillBgd {
+        height: 3vh;
+    }
+    .skillTitle {
+        height: 3vh;
+        width: 15vw;
+    }
+    .titleseth {
+        padding: 10% 10%;
+    }
+    .Msides2 {
+        margin: 1vh 20vw;
     }
 }

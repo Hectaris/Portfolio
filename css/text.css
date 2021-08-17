@@ -25,6 +25,10 @@ H4 {
     font-size: 3.5vh;
     font-style: italic;
 }
+h5{
+    font-weight: 200;
+    font-size: 2vh;
+}
 
 p {
     font-style: normal;
@@ -56,6 +60,10 @@ p {
         font-weight: 300;
         font-size: 2vh;
         font-style: italic;
+    }
+    h5{
+        font-weight: 200;
+        font-size: 1vh;
     }
     p {
         font-style: normal;
