@@ -59,7 +59,7 @@
     align-items: center;
     max-width: 80vw;
     max-height: 60vh;
-    width: 60vw;
+    width: 40vw;
     height: 80vh;
     background-color: #fff;
     transform: rotate(32deg);
@@ -81,7 +81,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60%;
+    width: 80%;
     height: 100%;
     padding: 4rem;
   }
