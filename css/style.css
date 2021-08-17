@@ -4,11 +4,13 @@
     padding: 1% 0 0% 0;
     margin-right: 7.5%;
 }
-.active:hover{
+
+.active:hover {
     transform: scale(1.1);
     transition: all 0.3s;
 }
-.inactive:hover{
+
+.inactive:hover {
     transform: scale(1.1);
     text-shadow: 2px 2px 4px #0A090C;
     transition: all 0.3s;
@@ -73,8 +75,13 @@
 .titlesetf {
     padding: 3% 3% 3% 3%;
 }
+
 .titlesetg {
     padding: 0 0 6% 0;
+}
+
+.titleseth {
+    padding: 5% 5%;
 }
 
 .Colorgradient {
@@ -94,13 +101,16 @@
     transition: all 0.5s;
     border-radius: 4px;
 }
-.boite{
+
+.boite {
     transition: all 0.5s;
     box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
-.boite:hover{
-    transform: translate(-2%, -2%); -webkit-transform: translate( -2%, -2%);
+
+.boite:hover {
+    transform: translate(-2%, -2%);
+    -webkit-transform: translate( -2%, -2%);
     transition: all 0.5s;
     box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.5);
 }
@@ -135,9 +145,11 @@
 .boxP {
     width: 50vh;
 }
-.space{
+
+.space {
     margin-right: 5vw;
 }
+
 .spacing {
     margin-right: 5vw;
     background: linear-gradient(120deg, #000066, #334DB3);
@@ -170,13 +182,16 @@
 .imgH {
     height: 22vh;
 }
+
 .imgS {
     height: 22vh;
     transition: all 0.5s;
 }
-.imgS:hover{
+
+.imgS:hover {
     transform: scale(1.1);
-    transform: translate(-2%, -3%); -webkit-transform: translate( -2%, -3%);
+    transform: translate(-2%, -3%);
+    -webkit-transform: translate( -2%, -3%);
     transition: all 0.5s;
 }
 
@@ -185,7 +200,8 @@
     transition: all 0.5s;
     align-items: center;
 }
-.square:hover{
+
+.square:hover {
     transform: scale(1.1);
     transition: all 0.5s;
 }
@@ -195,7 +211,7 @@
 }
 
 .Msides2 {
-    margin: 0 20vw;
+    margin: 3vh 20vw;
 }
 
 .Easteregg {
@@ -206,10 +222,16 @@
 .just-c {
     justify-content: center;
 }
-.bgred{
+
+.just-fe {
+    justify-content: flex-end;
+}
+
+.bgred {
     background-color: red;
 }
-.whiteBox{
+
+.whiteBox {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -219,38 +241,133 @@
     background-color: #F1FEEE;
     border-radius: 10px 10px 0 0;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-
 }
-.easteregg{
+
+.easteregg {
     margin-top: 1vh;
 }
-.FdirR{
+
+.FdirR {
     flex-direction: row;
 }
+
+.FdirC {
+    flex-direction: column;
+}
+
+.skillBorder {
+    height: 5vh;
+    width: 60vw;
+    animation: gradient 30s ease infinite;
+    background-size: 400% 400%;
+    justify-content: center;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin: 1%;
+}
+
+.skillBgd {
+    background: linear-gradient(120deg, #000066, #334DB3);
+    animation: gradient 30s ease infinite;
+    background-size: 400% 400%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.skillTitle {
+    height: 5vh;
+    width: 10vw;
+    background: #0A090C;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skillPercent {
+    width: 100%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2vh;
+}
+
+.bar100 {
+    height: 5vh;
+    width: 60vw;
+}
+
+.bar90 {
+    height: 5vh;
+    width: 55vw;
+}
+
+.bar80 {
+    height: 5vh;
+    width: 50vw;
+}
+
+.bar70 {
+    height: 5vh;
+    width: 45vw;
+}
+
+.bar60 {
+    height: 5vh;
+    width: 40vw;
+}
+
+.bar50 {
+    height: 5vh;
+    width: 35vw;
+}
+
+.bar40 {
+    height: 5vh;
+    width: 30vw;
+}
+
+.bar30 {
+    height: 5vh;
+    width: 25vw;
+}
+
+.bar20 {
+    height: 5vh;
+    width: 20vw;
+}
+
+.bar10 {
+    height: 5vh;
+    width: 15vw;
+}
+
 @media (max-width: 1250px) {
-    .headpush{
+    .headpush {
         padding-bottom: 2vh;
     }
-    .DevBox{
+    .DevBox {
         height: 8vh;
         width: 25vw;
     }
-    .DigitalBox{
+    .DigitalBox {
         height: 8vh;
         width: 25vw;
     }
-    .navsettings{
+    .navsettings {
         display: flex;
         justify-content: center;
         margin-right: 0;
         margin-bottom: 1vh;
         margin-top: 0.5vh;
     }
-    .boite{
+    .boite {
         margin-right: 5vw;
         margin-left: 5vw;
     }
-    .active{
+    .active {
         font-size: 2.5vh;
         font-weight: 600;
         text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
@@ -259,30 +376,30 @@
         font-size: 2.5vh;
         font-weight: 400;
     }
-    .imgH{
+    .imgH {
         height: 15vh;
     }
-    .boxP{
+    .boxP {
         width: 40vw;
     }
-    .lookset{
+    .lookset {
         margin-bottom: 1vh;
     }
-    .TitleAbout{
-        margin : 0 0 1vh 0;
+    .TitleAbout {
+        margin: 0 0 1vh 0;
     }
-    .follow{
+    .follow {
         margin-top: 1vh;
         margin-bottom: 1vh;
     }
-    .choice{
+    .choice {
         margin-bottom: 3vh;
         margin-top: 0.5vh;
     }
-    .square{
+    .square {
         height: 6vh;
     }
-    .whiteBox{
-        border-radius: 10px 10px;  
+    .whiteBox {
+        border-radius: 10px 10px;
     }
 }
