@@ -256,7 +256,7 @@
 }
 
 .skillBorder {
-    height: 5vh;
+    height: 4vh;
     width: 60vw;
     animation: gradient 30s ease infinite;
     background-size: 400% 400%;
@@ -277,7 +277,7 @@
 }
 
 .skillTitle {
-    height: 5vh;
+    height: 4vh;
     width: 10vw;
     background: #0A090C;
     border-radius: 4px;
@@ -295,47 +295,47 @@
 }
 
 .bar100 {
-    height: 5vh;
+    height: 4vh;
     width: 60vw;
 }
 
 .bar90 {
-    height: 5vh;
+    height: 4vh;
     width: 55vw;
 }
 
 .bar80 {
-    height: 5vh;
+    height: 4vh;
     width: 50vw;
 }
 
 .bar70 {
-    height: 5vh;
+    height: 4vh;
     width: 45vw;
 }
 
 .bar60 {
-    height: 5vh;
+    height: 4vh;
     width: 40vw;
 }
 
 .bar50 {
-    height: 5vh;
+    height: 4vh;
     width: 35vw;
 }
 
 .bar40 {
-    height: 5vh;
+    height: 4vh;
     width: 30vw;
 }
 
 .bar30 {
-    height: 5vh;
+    height: 4vh;
     width: 25vw;
 }
 
 .bar20 {
-    height: 5vh;
+    height: 4vh;
     width: 20vw;
 }
 
