@@ -1,0 +1,95 @@
+
+/* Numbers
+-----------------------------------------------------------------*/
+
+.numbers{
+
+    h2{
+        font-size: 120px;
+    }
+
+    h6{
+        font-size: 16px;
+    }
+}
+
+.sideimg-numbers{
+    position: relative;
+
+    .bg-right{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        z-index: 2;
+
+        .vid-circle{
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            border-radius: 50%;
+        }
+    }
+
+    .bg-left{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 45%;
+        height: 100%;
+        z-index: 2;
+
+        .vid-circle{
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            border-radius: 50%;
+        }
+    }
+
+    .bg-img{
+        background-position: center center;
+
+        .vid{
+            position: relative;
+            z-index: 2;
+
+            &:after{
+                content: '';
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                right: 10px;
+                bottom: 10px;
+                background: $main_bg;
+                border-radius: 50%;
+                z-index: -1;
+            }
+        }
+    }
+
+    .numbers{
+        transform: translateX(100px);
+        padding: 120px 100px 120px 0;
+        text-align: right;
+
+        .item{
+            width: max-content;
+            margin-left: auto;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255,255,255,.1);
+
+            &:last-of-type{
+                padding: 0;
+                border: 0;
+            }
+
+            h2{
+                font-style: normal;
+            }
+        }
+    }
+}

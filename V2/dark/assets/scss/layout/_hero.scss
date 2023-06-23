@@ -1,0 +1,379 @@
+
+/* Hero
+-----------------------------------------------------------------*/
+  
+.marquee {
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0;
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    transform: rotate(-3deg);
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    background: $main_bg;
+
+    &:before{
+        content: '';
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: -30px;
+        right: -30px;
+        pointer-events: none;
+        background: linear-gradient(to left, $main_bg, transparent 300px, transparent calc(100% - 300px), $main_bg);
+        z-index: 3;
+    }
+
+	h4{
+		font-size: 70px;
+	}
+}
+
+.cut-out{
+	clip-path: inset(-100vw 0vw -100vw -100vw);
+}
+
+.block-pattern{
+    position: relative;
+
+    .bg-pattern{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        background-size: contain;
+        background-position: center bottom;
+    }
+}
+
+.serv-marq{
+    position: relative;
+    z-index: 3;
+
+    .ontop{
+        transform: rotate(-1deg);
+    }
+
+    .main-marq{
+
+        &:after{
+            display: none;
+        }
+    }
+
+    &.skew{
+        
+        .main-marq{
+            transform: rotate(-2deg);
+        }
+    }
+}
+
+.my-paroller{
+
+	img{
+		transform: translateY(50%);
+	}
+}
+
+.back-image{
+    height: 75vh;
+	min-height: 400px;
+	overflow: hidden;
+
+    &.states{
+		min-height: auto;
+
+		.box{
+			height: 100%;
+			position: relative;
+			z-index: 4;
+		}
+
+		ul{
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			display: flex;
+	
+			li{
+				min-width: 350px;
+				padding: 40px 30px;
+				background: rgba(0,0,0,.3);
+				margin-right: 30px;
+	
+				h5{
+					font-size: 20px;
+					font-weight: 500;
+					line-height: 1.6;
+					text-transform: capitalize;
+				}
+			}
+	
+			.sd-color{
+				background: $main-color;
+				display: flex;
+	
+				.numb{
+					margin-right: 30px;
+					font-size: 40px;
+					font-weight: 600;
+				}
+			}
+
+			.sd-light{
+				background: #fff;
+				display: flex;
+	
+				.numb{
+					margin-right: 30px;
+					font-size: 40px;
+					font-weight: 600;
+				}
+
+				.numb,
+				h5{
+					color: #191919;
+				}
+			}
+
+            .sd-dark{
+				background: $main_bg;
+				display: flex;
+	
+				.numb{
+					margin-right: 30px;
+					font-size: 40px;
+					font-weight: 600;
+				}
+			}
+	
+			.blur{
+				background: rgba(0,0,0,.2);
+				backdrop-filter: blur(10px);
+				display: flex;
+	
+				.icon{
+					margin-left: auto;
+					width: 60px;
+					height: 60px;
+					line-height: 60px;
+					border: 1px solid #fff;
+					border-radius: 50%;
+					text-align: center;
+					font-size: 30px;
+				}
+			}
+		}
+	}
+}
+
+.block-sec{
+
+	.clients{
+
+		.item{
+			padding: 50px 20px;
+			border: 1px solid rgba(255,255,255,.05);
+			text-align: center;
+
+			img{
+				max-width: 100px;
+			}
+		}
+	}
+
+	.img-vid{
+		position: relative;
+		overflow: hidden;
+
+		.rota-vid{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+
+			.circle-button.in-bord:after{
+				background: #fff;
+			}
+
+			.circle-button.in-bord:before{
+				background: rgba(255,255,255,.05);
+				backdrop-filter: blur(4px);
+				border: 0;
+			}
+
+			.arrow{
+				z-index: 3;
+				transform: translateX(-7px) translateY(-7px);
+			}
+		}
+	}
+}
+
+.block-img{
+    position: relative;
+
+    .vid-circle{
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        border-radius: 50%;
+    }
+
+    .shap1{
+        position: absolute;
+        bottom: 100px;
+        left: 0;
+        width: 150px;
+        transform: rotate(90deg);
+    }
+
+    .shap2{
+        position: absolute;
+        top: 0;
+        right: 10%;
+        width: 150px;
+        transform: rotate(180deg);
+    }
+
+    .half-img-left{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-position: left bottom;
+        background-size: 50%;
+        pointer-events: none;
+    }
+}
+
+.block-sec{
+    position: relative;
+
+    .back-bg {
+        position: absolute;
+        top: 120px;
+        bottom: 120px;
+        width: 100%;
+        left: 0;
+        z-index: -1;
+    }
+
+    .cont-box{
+        padding: 80px 40px;
+    }
+}
+
+.skills-box {
+
+	h6 {
+		font-size: 13px;
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		margin-bottom: 10px;
+	}
+
+	.skill-progress {
+		height: 5px;
+		background-color: rgba(255,255,255,.05);
+		position: relative;
+
+		.progres {
+			position: absolute;
+			height: 100%;
+			width: 0;
+			top: 0;
+			left: 0;
+			background: #fff;
+			transition: all 1.5s;
+
+			&:after {
+				content: attr(data-value);
+				position: absolute;
+				right: 10px;
+				top: -25px;
+				font-size: 12px;
+				font-weight: 600;
+			}
+		}
+	}
+}
+
+.intro-pan{
+
+    .text{
+        width: 100%;
+        height: 100%;
+        padding: 40px;
+        background: $sub_bg;
+        position: relative;
+        z-index: 4;
+    }
+
+	.numbers{
+
+		.item{
+			padding-top: 30px;
+			border-top: 1px solid rgba(255,255,255,.05);
+		}
+
+		h2{
+			font-size: 100px;
+		}
+
+		h6{
+			font-size: 16px;
+		}
+	}
+}
+
+.sec-img{
+
+    .expr-box{
+        display: inline-block;
+        border: 5px solid #fff;
+        padding: 30px 60px 30px 30px;
+
+        h2{
+            position: relative;
+            display: inline-block;
+            z-index: 3;
+
+            &:after{
+                content: '';
+                position: absolute;
+                top: -10px;
+                right: -20px;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                background: $main_color;
+                opacity: .5;
+                z-index: -1;
+            }
+        }
+    }
+}
+
+.thecontainer {
+	width: 300%;
+	height: 100vh;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.panel {
+	width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

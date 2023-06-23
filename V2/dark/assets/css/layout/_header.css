@@ -1,0 +1,109 @@
+/* Pages Header
+-----------------------------------------------------------------*/
+.page-header {
+  min-height: 60vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-header .background {
+  min-height: 480px;
+}
+
+.page-header .caption .sub-title {
+  position: relative;
+  padding-left: 20px;
+}
+
+.page-header .caption .sub-title:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.page-header .explore {
+  position: relative;
+}
+
+.page-header .explore:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 105px;
+  height: 105px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+}
+
+.page-header .explore .rotate-circle {
+  -webkit-animation-duration: 20s;
+  animation-duration: 20s;
+}
+
+.page-header .main-marq {
+  margin-bottom: -40px;
+  text-transform: uppercase;
+}
+
+.page-header .main-marq .slide-har {
+  position: relative;
+}
+
+.page-header .main-marq .slide-har.st1 .box {
+  -webkit-animation: slide-har 150s linear infinite;
+  animation: slide-har 150s linear infinite;
+}
+
+.page-header .main-marq .slide-har.st2 .box {
+  -webkit-animation: slide-har-revers 150s linear infinite;
+  animation: slide-har-revers 150s linear infinite;
+}
+
+.work-header .caption .sub-title {
+  position: relative;
+  padding-left: 20px;
+}
+
+.work-header .caption .sub-title:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.work-header .caption h1 {
+  font-size: 120px;
+}
+
+.proj-header1 {
+  padding-top: 120px;
+}
+
+.proj-header1 .bg-img {
+  width: 100%;
+  height: 70vh;
+}
+
+.proj-header2 {
+  min-height: 90vh;
+}

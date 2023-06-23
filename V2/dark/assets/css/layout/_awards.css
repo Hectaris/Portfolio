@@ -1,0 +1,43 @@
+/* Awards
+-----------------------------------------------------------------*/
+.skills-exp .skill-item .item {
+  padding: 50px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 100px;
+  width: 100%;
+  text-align: center;
+  margin: 0 10px;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+.skills-exp .skill-item .item:hover {
+  border-color: #fff;
+}
+
+.skills-exp .skill-item .item:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.skills-exp .skill-item .item img {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+.skills-exp .exp-items .item .icon {
+  -webkit-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  margin-bottom: 15px;
+}
+
+.skills-exp .exp-items .item .icon svg {
+  width: 60px;
+  height: 25px;
+  fill: #fff;
+}

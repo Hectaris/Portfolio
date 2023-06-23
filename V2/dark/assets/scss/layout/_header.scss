@@ -1,0 +1,117 @@
+
+/* Pages Header
+-----------------------------------------------------------------*/
+
+.page-header{
+    min-height: 60vh;
+    position: relative;
+    overflow: hidden;
+
+    .background{
+        min-height: 480px;
+    }
+
+    .caption{
+
+        .sub-title{
+            position: relative;
+            padding-left: 20px;
+
+            &:after{
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background: #fff;
+            }
+        }
+    }
+
+    .explore{
+        position: relative;
+
+        &:before{
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 105px;
+            height: 105px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            pointer-events: none;
+        }
+
+        .rotate-circle{
+            animation-duration: 20s;
+        }
+    }
+
+    .main-marq{
+        margin-bottom: -40px;
+        text-transform: uppercase;
+
+        .slide-har {
+            position: relative;
+          
+            &.st1{
+          
+                .box {
+                    animation: slide-har 150s linear infinite;
+                }
+            }
+          
+            &.st2{
+          
+                .box{
+                    animation: slide-har-revers 150s linear infinite;
+                }
+            }
+        }
+    }
+}
+
+.work-header{
+
+    .caption{
+
+        .sub-title{
+            position: relative;
+            padding-left: 20px;
+
+            &:after{
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background: #fff;
+            }
+        }
+
+        h1{
+            font-size: 100px;
+        }
+    }
+}
+
+.proj-header1{
+    padding-top: 120px;
+
+    .bg-img{
+        width: 100%;
+        height: 70vh;
+    }
+}
+
+.proj-header2{
+    min-height: 90vh;
+}

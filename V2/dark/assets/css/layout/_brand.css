@@ -1,0 +1,167 @@
+/* Brands
+-----------------------------------------------------------------*/
+.brands .swiper-container {
+  overflow: visible;
+}
+
+.brands .item {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  position: relative;
+}
+
+.brands .item:after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  bottom: -10px;
+  left: -10px;
+  right: -10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+  pointer-events: none;
+}
+
+.brands .item:hover:after {
+  border-color: #fff;
+}
+
+.brands .item .img {
+  width: 100px;
+  margin: auto;
+}
+
+.brands-carsouel {
+  overflow: hidden;
+}
+
+.brands-carsouel .bord-right {
+  position: relative;
+}
+
+.brands-carsouel .bord-right:after {
+  content: '';
+  position: absolute;
+  top: -120px;
+  bottom: -120px;
+  right: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.brands-carsouel .item {
+  text-align: center;
+}
+
+.brands-carsouel .item .img {
+  width: 100px;
+  margin: auto;
+}
+
+.clients .brand:hover .img {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  opacity: 0;
+}
+
+.clients .brand:hover .link {
+  opacity: 1 !important;
+  -webkit-transition: all 0;
+  -o-transition: all 0;
+  transition: all 0;
+}
+
+.clients .brand:hover .char {
+  -webkit-animation: fadeInUp 0.3s cubic-bezier(0.3, 0, 0.7, 1) both;
+  animation: fadeInUp 0.3s cubic-bezier(0.3, 0, 0.7, 1) both;
+  -webkit-animation-delay: calc(20ms * var(--char-index));
+  animation-delay: calc(20ms * var(--char-index));
+}
+
+.clients .brand .item {
+  position: relative;
+  text-align: center;
+  padding: 80px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.clients .brand .item .link {
+  font-size: 16px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.clients .brand .img {
+  opacity: .8;
+  max-width: 100px;
+  margin: auto;
+  position: relative;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+.clients-rand .item > div {
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.clients-rand .item .sz1 {
+  width: 140px;
+  height: 140px;
+  line-height: 140px;
+  padding: 0 20px;
+}
+
+.clients-rand .item .sz2 {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  padding: 0 20px;
+}
+
+.clients-rand .item .sz3 {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  padding: 0 20px;
+}
+
+.clients-rand .item img {
+  margin: auto;
+}
+
+.clients-carso .img {
+  margin: auto;
+}
+
+.clients-carso2 {
+  padding: 60px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.clients-carso2 .img {
+  margin: auto;
+  opacity: .8;
+}
+
+.clients-carso2 .img:hover {
+  opacity: 1;
+}

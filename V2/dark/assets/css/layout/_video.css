@@ -1,0 +1,27 @@
+/* Video
+-----------------------------------------------------------------*/
+.video-sec {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+}
+
+.video-sec video {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.video-sec .play-button a {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}

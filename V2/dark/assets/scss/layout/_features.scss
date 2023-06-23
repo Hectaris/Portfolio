@@ -1,0 +1,170 @@
+
+/* Features & list & tabs & accordin
+-----------------------------------------------------------------*/
+
+.list-arrow{
+
+    li{
+
+        .icon{
+            width: 15px;
+            margin-right: 10px;
+        }
+    }
+}
+
+.dot-list{
+
+    li{
+        position: relative;
+        padding-left: 15px;
+
+        &:before{
+            content: '';
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            background: #fff;
+        }
+    }
+}
+
+.text-dark{
+
+    .dot-list{
+
+        li{
+
+            &:before{
+                background: $main_bg;
+            }
+        }
+    }
+}
+
+.accordion{
+
+    &.bord{
+
+        .title{
+            border-bottom: 1px solid rgba(255,255,255,.1);
+
+            &:after{
+                left: auto;
+                right: 20px;
+            }
+
+            .ico{
+                left: auto;
+                right: 25px;
+            }
+        }
+    }
+
+    .title{
+        padding: 10px 0 10px 0;
+        cursor: pointer;
+        position: relative;
+
+        .ico{
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            width: 15px;
+            height: 1px;
+            transform: translateY(-50%);
+            background: #999;
+        }
+    }
+
+    .accordion-info{
+        display: none;
+        margin-top: 15px;
+
+        .spac{
+            margin-top: 30px;
+            padding-left: 30px;
+
+            h6{
+                position: relative;
+
+                &:after{
+                    content: "";
+                    width: 6px;
+                    height: 6px;
+                    border-radius: 50%;
+                    background: #999;
+                    position: absolute;
+                    top: 3px;
+                    left: -15px;
+                }
+            }
+        }
+    }
+
+    .active{
+        display: block;
+
+        .title{
+
+            .ico{
+                
+                &:after{
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    width: 1px;
+                    height: 15px;
+                    transform: translateY(-50%);
+                    background: #999;
+                }
+            }
+        }
+    }
+}
+
+#tabs-fade,
+#tabs{
+
+    .tab-content{
+        display: none;
+
+        &.current{
+            display: block;
+        }
+    }
+}
+
+.approach-carso{
+
+    .swiper-wrapper{
+        width: auto;
+    }
+
+    .swiper-slide{
+        padding: 70px 50px;
+        border: 1px solid rgba(255,255,255,.1);
+        border-radius: 250px;
+        margin-left: -7px;
+        margin-right: -7px;
+        transition: all .4s;
+
+        &:hover{
+            border-color: $main_color2;
+        }
+    }
+
+    .item{
+
+        .stroke{
+            color: transparent;
+            -webkit-text-stroke: 1px #fff;
+            font-weight: 800;
+            line-height: 1;
+        }
+    }
+}
