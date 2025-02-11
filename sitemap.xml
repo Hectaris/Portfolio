@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://adriendumont.fr/</loc>
+    <lastmod>2025-02-11</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Page à propos -->
+  <url>
+    <loc>https://adriendumont.fr/a-propos</loc>
+    <lastmod>2025-02-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Page portfolio -->
+  <url>
+    <loc>https://adriendumont.fr/portfolio</loc>
+    <lastmod>2025-02-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Page contact -->
+  <url>
+    <loc>https://adriendumont.fr/contact</loc>
+    <lastmod>2025-02-11</lastmod>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Autres pages -->
+  <url>
+    <loc>https://adriendumont.fr/blog</loc>
+    <lastmod>2025-02-11</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Page de services -->
+  <url>
+    <loc>https://adriendumont.fr/services</loc>
+    <lastmod>2025-02-11</lastmod>
+    <priority>0.7</priority>
+  </url>
+  
+</urlset>
