@@ -232,6 +232,10 @@ a {
 a:hover {
   text-decoration: none;
 }
+b{
+  font-weight: 600;
+  color: #f31d1d;
+}
 
 figure {
   margin: 0;
@@ -3851,7 +3855,7 @@ body.loaded {
 }
 
 .sec-lg-head .dot-titl.colorbg-1:before, .sec-lg-head .dot-titl.colorbg-1:after {
-  background: #c9f31d;
+  background: #f31d1d;
 }
 
 .sec-lg-head .dot-titl.colorbg-3:before, .sec-lg-head .dot-titl.colorbg-3:after {
@@ -4301,7 +4305,7 @@ body.loaded {
 }
 
 .intro-feat .two-imgs .img1 .play-button .butn-ply .circle {
-  fill: #c9f31d;
+  fill: #f31d1d;
   stroke-dasharray: 301.59px 301.59px;
   stroke-dashoffset: 301.59px;
   -webkit-transition: all 0.8s cubic-bezier(0.4, 0.08, 0, 0.97);
@@ -4986,7 +4990,7 @@ body.loaded {
 
 .main-post .info-area .tags a:hover,
 .main-post .info-area .share-icon a:hover {
-  background: #c9f31d;
+  background: #f31d1d;
   color: #fff;
 }
 
@@ -5071,7 +5075,7 @@ body.loaded {
 }
 
 .comments-post .item-box .replay-post a:hover {
-  background: #c9f31d;
+  background: #f31d1d;
   color: #1d1d1d;
 }
 
